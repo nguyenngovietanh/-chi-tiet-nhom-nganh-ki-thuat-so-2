@@ -270,9 +270,15 @@ nav .navbar .links li:hover > i,
   color: #DA291C;
   transform: scale(1.1);
 }
-
+.content-inside-4 p:nth-child(2), .content-inside-4 p:nth-child(5) {
+  padding-left: 10px;
+}
+.content-inside-4 p:nth-child(3), .content-inside-4 p:nth-child(4),
+.content-inside-4 p:nth-child(6), .content-inside-4 p:nth-child(7) {
+  padding-left: 20px;
+}
 /* body */
-.engineering-details-container-1 h2 {
+.engineering-details-container-2 h2 {
   font-family: 'Oswald', sans-serif;
   text-align: center;
   font-style: normal;
@@ -281,7 +287,7 @@ nav .navbar .links li:hover > i,
   color: #222221;
   text-transform: uppercase;
 }
-.engineering-details-container-1 {
+.engineering-details-container-2 {
   background: #f7f5ee;
   width: 100%;
   padding-top: 50px;
@@ -328,6 +334,7 @@ nav .navbar .links li:hover > i,
 }
 .content-inside p {
   margin-bottom: 0 !important;
+  text-align: justify;
 }
 .content-inside p span {
   display: inline-block;
@@ -347,6 +354,7 @@ nav .navbar .links li:hover > i,
 .content-inside i {
   font-size: 5px;
   margin-right: 6px;
+  vertical-align: middle;
 }
 .note {
   text-align: center;
@@ -795,7 +803,7 @@ footer {
     padding-right: 15px;
   }
   /* header 640 end */
-  .engineering-details-container-1 h2 {
+  .engineering-details-container-2 h2 {
     font-size: 28px;
   }
   .engineering-details-box .engineering-details-box__img {
@@ -854,7 +862,7 @@ footer {
     line-height: 25px;
   }
   /* header 540 end */
-  .engineering-details-container-1 h2 {
+  .engineering-details-container-2 h2 {
     font-size: 25px;
   }
   .engineering-details-box {
@@ -908,7 +916,7 @@ footer {
     font-size: 18px;
   }
   /* header 480 end */
-  .engineering-details-container-1 h2 {
+  .engineering-details-container-2 h2 {
     font-size: 22px;
   }
   .engineering-details-box {
@@ -960,7 +968,7 @@ footer {
     margin-bottom: 0px;
   } 
   /* header 420 end */
-  .engineering-details-container-1 h2 {
+  .engineering-details-container-2 h2 {
     font-size: 20px;
   }
   .engineering-details-box .engineering-details-box__img {
@@ -1023,7 +1031,7 @@ footer {
   nav .navbar .links li {
     padding: 0 5px;
   }
-  .engineering-details-container-1 h2 {
+  .engineering-details-container-2 h2 {
     font-size: 18px;
   }
 }
